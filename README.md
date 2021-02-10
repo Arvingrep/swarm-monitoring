@@ -24,7 +24,9 @@ Open Grafana in your browser with the following command:
 open http://`docker-machine ip manager`
 ```
 
-In Grafana, create a new `InfluxDB` data source, with Url `http://influx:8086` and database `cadvisor`. Finally import new dashboard with `dashboard.json` file.
+In Grafana, create a new `influxDB` data source configset, with Url `http://influx:8086` and database `cadvisor`. Finally import new dashboard with `dashboard.json` file.
+
+[ <img src="1703230adb6a7544.jpeg">]
 
 中文参照： 
 https://juejin.cn/post/6844904062618435598
